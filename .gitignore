@@ -1,0 +1,23 @@
+# Entornos virtuales
+venv/
+env/
+
+# Variables de entorno y secretos (¡CRÍTICO!)
+.env
+.env.*
+
+# Memoria vectorial y bases de datos locales
+chroma_db/
+*.sqlite3
+data/
+
+# Archivos temporales y cachés de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.bak
+
+# Archivos del sistema operativo y VS Code
+.vscode/
+.DS_Store
+*.code-workspace
